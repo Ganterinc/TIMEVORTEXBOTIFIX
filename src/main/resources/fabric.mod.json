@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "timevortex_botifix",
+	"version": "${version}",
+	"name": "Time Vortex Boti Fix",
+	"description": "Spreads the upload of far sections seen through TARDIS doors over several frames, so that opening a door no longer causes one huge frame (and the render-thread crash that follows it).",
+	"authors": [
+		"Ganter_Inc"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"mixins": [
+		"timevortex_botifix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"timevortex": ">=1.3.11"
+	}
+}
