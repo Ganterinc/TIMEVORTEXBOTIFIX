@@ -16,6 +16,6 @@
 		"fabricloader": ">=0.16",
 		"minecraft": "~26.3",
 		"java": ">=25",
-		"timevortex": ">=1.3.11"
+		"timevortex": "*"
 	}
 }
